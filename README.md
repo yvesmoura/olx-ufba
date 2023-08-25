@@ -28,7 +28,9 @@
 
 # Contexto do Problema
 
-Problema de análise e previsão imobiliária. O objetivo é desenvolver um modelo de machine learning que seja capaz de estimar com precisão o valor de um apartamento com base em várias variáveis ou características relevantes. Será extremamente útil para compradores, vendedores, corretores imobiliários e investidores, pois ajuda a tomar decisões informadas sobre transações imobiliárias.
+O objetivo é desenvolver um modelo de machine learning que seja capaz de estimar com precisão o valor de um apartamento com base em várias variáveis ou características relevantes. Será extremamente útil para compradores, vendedores, corretores imobiliários e investidores, pois ajuda a tomar decisões informadas sobre transações imobiliárias.
+
+este projeto visa explorar os anúncios de imóveis disponíveis no OLX. Ao extrair e analisar esses dados, será possível identificar tendências de preços, características populares e padrões de imovel
 
 # O Problema
 
@@ -37,11 +39,13 @@ Você foi contratado como um Consultor de Ciência de Dados para criar um modelo
 Ao final da sua consultoria, você precisa entregar ao CEO um modelo em produção, ou seja, os clientes enviarão Características do apartamento via  dispositivos móveis para que o seu modelo estime um valor do imóvel
 
 
+
+
 # Entendimento do Problema
 
-**Motivação:** Facilitar acesso aos dados de compras ou aluguel de imoveis 
+**Motivação:** Reduzir a incerteza e a complexidade que muitas vezes envolvem o processo de compra ou aluguel de imóveis.
 
-**Causa Raiz do Problema:** dificuldade para encontrar estimativas de valor do imoveis
+**Causa Raiz do Problema:** Falta de acesso a estimativas precisas e confiáveis de valor de imóveis
 
 **Tipo de Problema:** Prever valor do apartamento.
 
@@ -92,7 +96,7 @@ O Dataset usado para este projeto possui 10 mil linhas e 26 colunas. Os dados co
 
 **2. Levantar Hipóteses:**
 
-- Criar Hipóteses sobre as características e o comportamento de transações fraudulentas.
+- Criar Hipóteses sobre as características e o comportamento.
 - Realizar uma Feature Engineering para criar novas variáveis.
 
 **3. Filtrar Dados:**
@@ -111,7 +115,7 @@ O Dataset usado para este projeto possui 10 mil linhas e 26 colunas. Os dados co
 
 **6. Selecionar as melhores Features**
 
-- Usar o algoritmo Extra Trees para selecionar as features mais importantes e low variance.
+- Usar o algoritmo Boruta para selecionar as features mais importantes e low variance.
 
 **7. Modelagem de Machine Leaning**
 
@@ -146,9 +150,37 @@ Os modelos treinados foram:
 - Random Forest
 - XGB
 
-O modelo com performance mais alta e escolhido para resolver o problema de Prever valor do apartamento foi o **XGB**.
+O modelo com performance mais alta e custo benefício escolhido para resolver o problema de Prever valor do apartamento foi o **XGB**, mesmo o VotingRegressor tendo a maior performance a diferença entre o treino e o teste é grande e pode ter overfitting.
 
 
+
+# Melhorias
+
+* Conseguir mais dados para treinar o modelo. pois estamos utilizando apenas 10 mil linhas
+* Exploração mais profunda: Ao realizar a Análise Exploratória de Dados (EDA)
+* Testar diferentes algoritmos
+* Feature Engineering
+* Monitoramento do modelo em produção 
+
+# Stack utilizada
+
+**Back-end:** Python,Docker
+
+**Design** Figma
+
+**IDE** Visual Code, Jupyter Notebook
+
+**Bancos de Dados** MongoDB
+
+**Ferramentas de Visualização** PowerBI
+
+**Agendamento de Tarefas** Airflow
+
+**Web Scraping e Automação** Selenium e BeautifulSoup
+
+**Comunicação e Colaboração** Git
+
+**Deploy** Huggingface
 
 
 ## 🔗 References

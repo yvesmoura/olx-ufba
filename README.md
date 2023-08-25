@@ -138,7 +138,36 @@ Os modelos treinados foram:
 O modelo com performance mais alta e escolhido para resolver o problema de Prever valor do apartamento foi o **XGB**.
 
 
-## Autores
+
+## 🔗 References
+
+1. Data Science Process Alliance - [What is CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/)
+2. Owen Zhang - [Open Source Tools & Data Science Competitions](https://www.slideshare.net/odsc/owen-zhangopen-sourcetoolsanddscompetitions1)
+3. Statstest  - [Cramer's V](https://www.statstest.com/cramers-v-2/)
+4. Bulldogjob - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+<br>
+
+Se você tiver alguma outra sugestão ou dúvida, não hesite em entrar em contato comigo através do [LinkedIn](https://www.linkedin.com/in/yves-moura-99b231187/).
+
+<br>
+
+## ✍🏽 Author
 
 - [@ylmoura](https://github.com/ylmoura)
+
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrodestefani) [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leassis.destefani@gmail.com) [![kaggle](https://img.shields.io/badge/Kaggle-3776AB?style=for-the-badge&logo=Kaggle&logoColor=white)](https://kaggle.com/leandrodestefani)
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+***
+
+## 💪 How to contribute
+
+1. Fork the project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save your changes and create a commit message telling you what you did: `git commit -m" feature: My new feature "`
+4. Submit your changes: `git push origin my-feature`
 

@@ -33,6 +33,9 @@ Problema de análise e previsão imobiliária. O objetivo é desenvolver um mode
 **Apartment Price Prediction** 
 # O Problema
 
+Você foi contratado como um Consultor de Ciência de Dados para criar um modelo de alta precisão para prever valores de apartamentos feitas através de dispositivos móveis.
+
+Ao final da sua consultoria, você precisa entregar ao CEO um modelo em produção, ou seja, os clientes enviarão suas transações dispositivos móveis para que o seu modelo estime um valor do imóvel
 
 
 # Entendimento do Problema

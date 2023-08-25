@@ -152,7 +152,10 @@ Os modelos treinados foram:
 
 O modelo com performance mais alta e custo benefício escolhido para resolver o problema de Prever valor do apartamento foi o **XGB**, mesmo o VotingRegressor tendo a maior performance a diferença entre o treino e o teste é grande e pode ter overfitting.
 
+# Entrega da Solução
 
+
+[olx-ufba](https://huggingface.co/spaces/yvesmoura/olx-ufba)
 
 # Melhorias
 

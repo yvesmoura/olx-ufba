@@ -12,9 +12,6 @@
 
 # Apartment Price Prediction
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
-
-
 
 1.  [Contexto do Problema](Contexto-do-Problema)
 2.  [O Problema](O-Problema)
@@ -31,7 +28,9 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 # Contexto do Problema
 
-A **Apartment Price Prediction** 
+Problema de análise e previsão imobiliária. O objetivo é desenvolver um modelo de machine learning que seja capaz de estimar com precisão o valor de um apartamento com base em várias variáveis ou características relevantes. Será extremamente útil para compradores, vendedores, corretores imobiliários e investidores, pois ajuda a tomar decisões informadas sobre transações imobiliárias.
+
+**Apartment Price Prediction** 
 # O Problema
 
 
@@ -46,7 +45,7 @@ A **Apartment Price Prediction**
 
 **Potênciais Métodos:** Regressão.
 
-**Entraga da Solução:** WebApp contendo a predição.
+**Entrega da Solução:** WebApp contendo a predição no huggingface.
 
 # Descrição de Dados
 
@@ -126,7 +125,7 @@ O Dataset usado para este projeto possui 10 mil linhas e 26 colunas. Os dados co
 
 **10. Deploy do Modelo em Produção**
 
-- Deixar o modelo acessível utilizando API e com acesso via webApp.
+- Deixar o modelo acessível utilizando huggingface via webApp.
 
 
 # Algoritmos de Machine Learning Aplicados
@@ -142,7 +141,7 @@ O modelo com performance mais alta e escolhido para resolver o problema de Preve
 ## 🔗 References
 
 1. Data Science Process Alliance - [What is CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/)
-2. Olx  - [OLX](https://www.olx.com.br/imoveis/venda/apartamentos/estado-ba/grande-salvador/salvador)
+2. Olx  - [Anúncio de apartamentos](https://www.olx.com.br/imoveis/venda/apartamentos/estado-ba/grande-salvador/salvador)
 3. Bulldogjob - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 

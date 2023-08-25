@@ -5,7 +5,9 @@
 
 
 
-![Logo](../olx-ufba/reports/figures/olx-ufba.png)
+<p align="center">
+  <img src="reports/figures/olx-ufba.png" width="1000" title="img-principal">
+</p>
 
 
 # Apartment Price Prediction

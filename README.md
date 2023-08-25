@@ -30,7 +30,6 @@
 
 Problema de análise e previsão imobiliária. O objetivo é desenvolver um modelo de machine learning que seja capaz de estimar com precisão o valor de um apartamento com base em várias variáveis ou características relevantes. Será extremamente útil para compradores, vendedores, corretores imobiliários e investidores, pois ajuda a tomar decisões informadas sobre transações imobiliárias.
 
-**Apartment Price Prediction** 
 # O Problema
 
 Você foi contratado como um Consultor de Ciência de Dados para criar um modelo de alta precisão para prever valores de apartamentos feitas através de dispositivos móveis.
@@ -130,6 +129,16 @@ O Dataset usado para este projeto possui 10 mil linhas e 26 colunas. Os dados co
 
 - Deixar o modelo acessível utilizando huggingface via webApp.
 
+## 💻 Machine Learning Modeling & Evaluation
+
+ * Cross Validation
+ 
+  *Performance on 5 K-Fold CV.*
+
+|   Model Name     |   MAE TRAIN            |   MAE TEST            |   MAPE TRAIN           |   MAPE TEST            |   RMSE TRAIN           |   RMSE TEST            |
+|------------------|------------------------|-----------------------|------------------------|------------------------|------------------------|------------------------|
+| VotingRegressor  | 47684.34 +/- 246.64    | 60954.08 +/- 1216.24  | 0.14 +/- 0.00          | 0.18 +/- 0.00          | 61554.88 +/- 265.29    | 81205.50 +/- 1700.72   |
+| XGBRegressor     | 81185.86 +/- 549.65    | 82370.33 +/- 1719.77  | 0.23 +/- 0.00          | 0.24 +/- 0.01          | 103319.89 +/- 685.40   | 104784.58 +/- 2059.22  |
 
 # Algoritmos de Machine Learning Aplicados
 
@@ -138,6 +147,7 @@ Os modelos treinados foram:
 - XGB
 
 O modelo com performance mais alta e escolhido para resolver o problema de Prever valor do apartamento foi o **XGB**.
+
 
 
 
